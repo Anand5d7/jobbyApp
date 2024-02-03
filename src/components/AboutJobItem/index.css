@@ -1,0 +1,23 @@
+.job-details-view-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details-skills-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skill-image {
+  height: 30px;
+  width: 70px;
+}
+
+.skill-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}

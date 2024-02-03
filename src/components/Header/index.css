@@ -1,0 +1,145 @@
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #202020;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 30vw;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-mobile-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-logo-image {
+  height: 12px;
+  width: 60px;
+}
+
+.header-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link-item {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+.nav-link-item-1 {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+.home-img {
+  color: #f8fafc;
+  font-size: 24px;
+}
+.jobs-img {
+  color: #f8fafc;
+  font-size: 24px;
+}
+.btn-img {
+  color: #f8fafc;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-bar-large-header-container {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu-list-item {
+  list-style-type: none;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-image {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.desktop-logout-button {
+  background-color: #4f46e5;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 700;
+  height: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 6px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    width: 60vw;
+  }
+  .header-logo-image-1 {
+    height: 34px;
+    width: 120px;
+    margin-left: 20px;
+  }
+  .nav-mobile-header-container {
+    display: none;
+  }
+  .nav-bar-large-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-menu-list-item {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  .nav-link {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+}
